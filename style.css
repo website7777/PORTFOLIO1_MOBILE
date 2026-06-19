@@ -559,7 +559,7 @@ header{
 @media(max-width: 1000px){
 #first {
     position: relative;
-    min-height: 1220px;
+    min-height: 10000px;
     width: 100%;
     overflow: hidden;
     background-image: url('background1.png');
