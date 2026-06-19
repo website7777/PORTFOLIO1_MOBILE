@@ -806,7 +806,7 @@ header {
 #second {
     position: relative;
     width: 100vw;
-    height: 83.28dvh;
+    height: 1081px;
     background-color: #F6F3EE;
 }
 
@@ -902,7 +902,7 @@ header {
 #third {
     position: relative;
     width: 100vw;
-    height: 100dvh;
+    height: 1298px;
     background-color: #11131A;
 }
 
@@ -976,7 +976,7 @@ header {
 #fourth {
     position: relative;
     width: 100vw;
-    height: 70dvh;
+    height: 700px;
     background-color: white;
 }
 
@@ -1025,7 +1025,7 @@ header {
 #fivth {
     position: relative;
     width: 100vw;
-    height: 86.13dvh;
+    height: 1118px;
     background-color: #F6F3EE;
 }
 
@@ -1158,7 +1158,7 @@ header {
 #sixth {
     position: relative;
     width: 100vw;
-    height: 58.32dvh;
+    height: 757px;
 }
 
 #elem12 {
