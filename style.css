@@ -556,7 +556,7 @@ header{
     top: 95%;
     font-size: 15px;
 }
-@media(max-width: 500px){
+@media(max-width: 1000px){
 #first {
     position: relative;
     height: 100vh;
