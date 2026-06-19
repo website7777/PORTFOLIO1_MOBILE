@@ -19,13 +19,13 @@ body::-webkit-scrollbar {
 }
 
 body {
-    min-height: 100vh;
+    min-height: 100dvh;
 }
 
 #first {
     position: relative;
-    height: 100vh;
-    min-height: 100vh;
+    height: 100dvh;
+    min-height: 100dvh;
     width: 100%;
     overflow: hidden;
     background-image: url('background1.png');
@@ -221,7 +221,7 @@ header{
 #second{
     position: relative;
     width: 100vw;
-    height: 77.53vh;
+    height: 77.53dvh;
     background-color: #F6F3EE;
 }
 #p15{
@@ -279,7 +279,7 @@ header{
 #third{
     position: relative;
     width:100vw;
-    height: 71.55vh;
+    height: 71.55dvh;
     background-color: #11131A;
 }
 #p23{
@@ -336,7 +336,7 @@ header{
 #fourth{
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
     background-color: white;
 }
 #p30{
@@ -377,7 +377,7 @@ header{
 #fivth{
     position: relative;
     width: 100vw;
-    height: 69.51vh;
+    height: 69.51dvh;
     background-color: #F6F3EE;
 }
 #p33{
@@ -490,7 +490,7 @@ header{
 #sixth{
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
 }
 #elem12{
     position: absolute;
@@ -559,8 +559,8 @@ header{
 @media(max-width: 1000px){
 #first {
     position: relative;
-    height: 100vh;
-    height: 93.99vh;
+    height: 100dvh;
+    height: 93.99dvh;
     width: 100%;
     overflow: hidden;
     background-image: url('background1.png');
@@ -806,7 +806,7 @@ header {
 #second {
     position: relative;
     width: 100vw;
-    height: 83.28vh;
+    height: 83.28dvh;
     background-color: #F6F3EE;
 }
 
@@ -902,7 +902,7 @@ header {
 #third {
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
     background-color: #11131A;
 }
 
@@ -976,7 +976,7 @@ header {
 #fourth {
     position: relative;
     width: 100vw;
-    height: 70vh;
+    height: 70dvh;
     background-color: white;
 }
 
@@ -1025,7 +1025,7 @@ header {
 #fivth {
     position: relative;
     width: 100vw;
-    height: 86.13vh;
+    height: 86.13dvh;
     background-color: #F6F3EE;
 }
 
@@ -1158,7 +1158,7 @@ header {
 #sixth {
     position: relative;
     width: 100vw;
-    height: 58.32vh;
+    height: 58.32dvh;
 }
 
 #elem12 {
