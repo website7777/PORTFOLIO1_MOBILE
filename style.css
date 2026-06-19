@@ -559,9 +559,9 @@ header{
 @media(max-width: 1000px){
 #first {
     position: relative;
-    min-height: 10000px;
+    min-height: 1220px;
     width: 100%;
-    overflow: hidden;
+    overflow: visible;
     background-image: url('background1.png');
     background-repeat: no-repeat;
     background-position: center;
