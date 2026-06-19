@@ -44,6 +44,8 @@ header{
     opacity: 75%;
     border-radius: 45px;
 }
+#menu{
+    opacity: 0;
 #h1_1{
     position: absolute;
     left: 2%;
