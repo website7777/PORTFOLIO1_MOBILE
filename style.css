@@ -558,6 +558,7 @@ header{
 }
 @media(max-width: 1000px){
 #first {
+    
     position: relative;
     min-height: 1220px;
     width: 100%;
@@ -567,6 +568,8 @@ header{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+        border: 5px solid red;
+
 }
 
 header {
