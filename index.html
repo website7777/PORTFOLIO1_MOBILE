@@ -1,150 +1,99 @@
+
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NovaSpace — дизайн рабочих пространств</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaSpace</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="header" id="top">
-    <nav class="nav">
-      <a class="logo" href="#top">Nova<span>Space</span></a>
-      <button class="burger" id="burger" aria-label="Открыть меню">☰</button>
-      <div class="nav-links" id="navLinks">
-        <a href="#about">О студии</a>
-        <a href="#services">Услуги</a>
-        <a href="#projects">Проекты</a>
-        <a href="#process">Процесс</a>
-        <a href="#contact" class="nav-cta">Связаться</a>
-      </div>
-    </nav>
-
-    <section class="hero">
-      <div class="hero-content">
-        <p class="eyebrow">интерьер • офисы • коворкинги</p>
-        <h1>Проектируем пространства, где хочется работать</h1>
-        <p class="hero-text">NovaSpace создаёт функциональные офисы, креативные студии и гибкие рабочие зоны для команд, которые ценят эстетику и продуктивность.</p>
-        <div class="hero-actions">
-          <a href="#projects" class="btn primary">Смотреть проекты</a>
-          <a href="#contact" class="btn ghost">Обсудить идею</a>
-        </div>
-      </div>
-      <div class="hero-card">
-        <div class="glass-card">
-          <span class="card-label">проект месяца</span>
-          <h3>Cloud Office</h3>
-          <p>1 200 м² пространства для IT-команды с зонами фокуса, переговорными и лаунжами.</p>
-          <div class="stats">
-            <div><b>42</b><span>дня</span></div>
-            <div><b>8</b><span>зон</span></div>
-            <div><b>96%</b><span>довольны</span></div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </header>
-
-  <main>
-    <section class="section about" id="about">
-      <div class="section-title">
-        <p class="eyebrow">о студии</p>
-        <h2>Дизайн, который решает бизнес-задачи</h2>
-      </div>
-      <div class="about-grid">
-        <p>Мы соединяем интерьерный дизайн, аналитику рабочих сценариев и визуальную айдентику компании. Каждый проект начинается с изучения команды: как люди общаются, отдыхают, проводят встречи и работают в тишине.</p>
-        <div class="feature-list">
-          <div><span>01</span>Эргономика и комфорт</div>
-          <div><span>02</span>Планировка под реальные процессы</div>
-          <div><span>03</span>Визуальный стиль бренда в интерьере</div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section services" id="services">
-      <div class="section-title centered">
-        <p class="eyebrow">что делаем</p>
-        <h2>Услуги студии</h2>
-      </div>
-      <div class="cards">
-        <article class="service-card">
-          <span>✦</span>
-          <h3>Концепция офиса</h3>
-          <p>Создаём визуальную идею, мудборд, палитру, стиль мебели и ключевые интерьерные решения.</p>
-        </article>
-        <article class="service-card active">
-          <span>⬡</span>
-          <h3>Планировка</h3>
-          <p>Продумываем рабочие места, переговорные, зоны отдыха, маршруты движения и хранение.</p>
-        </article>
-        <article class="service-card">
-          <span>◐</span>
-          <h3>3D-визуализация</h3>
-          <p>Показываем будущий интерьер в реалистичных рендерах до старта ремонта.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section projects" id="projects">
-      <div class="section-title">
-        <p class="eyebrow">кейсы</p>
-        <h2>Избранные проекты</h2>
-      </div>
-      <div class="project-grid">
-        <article class="project big">
-          <div>
-            <span>IT office</span>
-            <h3>Cloud Office</h3>
-            <p>Минималистичный офис с тёплым светом и зонами тишины.</p>
-          </div>
-        </article>
-        <article class="project p2">
-          <div>
-            <span>Coworking</span>
-            <h3>Urban Hub</h3>
-          </div>
-        </article>
-        <article class="project p3">
-          <div>
-            <span>Creative studio</span>
-            <h3>Pixel Loft</h3>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section process" id="process">
-      <div class="section-title centered">
-        <p class="eyebrow">этапы</p>
-        <h2>Как проходит работа</h2>
-      </div>
-      <div class="timeline">
-        <div><b>01</b><h3>Брифинг</h3><p>Определяем задачи, бюджет, сроки и стиль.</p></div>
-        <div><b>02</b><h3>Концепция</h3><p>Собираем идею, референсы и планировку.</p></div>
-        <div><b>03</b><h3>Визуализация</h3><p>Готовим 3D-виды и согласуем детали.</p></div>
-        <div><b>04</b><h3>Передача</h3><p>Отдаём материалы для реализации проекта.</p></div>
-      </div>
-    </section>
-
-    <section class="cta" id="contact">
-      <div>
-        <p class="eyebrow">готовы начать?</p>
-        <h2>Расскажите о вашем будущем пространстве</h2>
-      </div>
-      <form class="form">
-        <input type="text" placeholder="Ваше имя" required />
-        <input type="email" placeholder="Email" required />
-        <textarea placeholder="Кратко о проекте"></textarea>
-        <button class="btn primary" type="submit">Отправить заявку</button>
-      </form>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <p>© 2026 NovaSpace Studio</p>
-    <a href="#top">Наверх ↑</a>
-  </footer>
-
-  <script src="script.js"></script>
+    <div id="first">
+         <header>
+             <h1 id="h1_1">Nova</h1><h1 id="h1_2">Space</h1>
+           <p class="opacity" id="p1">О студии</p>
+             <p class="opacity" id="p2">Услуги</p>
+            <p class="opacity" class="redirect1" id="p3">Проекты</p>
+            <p class="opacity" id="p4">Процесс</p>
+            <button id="btn1">Связаться</button> 
+            <img id="menu" src="menu.png" alt="">
+        </header>
+        <p id="p5">ИНТЕРЬЕР</p> <p style="position: absolute;  left: 30.23%; top: 8.61%; font-size: 13px; color: #D99A5B;" class="p6_1" id="p6">•</p> <p id="p7">ОФИСЫ</p> <p id="p8">•</p> <p id="p9">КОВОРКИНГИ</p>
+        <h1 id="h1_3">Проектируем <br> пространства, <br> где хочется <br> работать</h1>
+        <p id="p6">NovaSpace создаёт функциональные офисы, креативные <br> студии и гибкие рабочие зоны для команд, которые ценят <br> эстетику и продуктивность.</p>
+        <button class="redirect1" id="btn2"><h3>Смотреть проекты</h3></button> <button id="btn3"><h3>Обсудить идею</h3></button>
+        <div id="elem1">
+            <p id="p10">проект месяца</p>
+            <h3 id="h3_1">Cloud Office</h3>
+            <p id="p11">1 200 м² пространства для IT- <br>команды с зонами фокуса, <br> переговорными и лаунжами.</p>
+            <div id="elem1_1"><h3 id="h3_2">42</h3>    <p id="p12">дня</p></div>
+            <div id="elem1_2"><h3 id="h3_3">8</h3>    <p id="p13">зон</p></div>
+            <div id="elem1_3"><h3 id="h3_4">96%</h3>    <p id="p14">довольны</p></div>
+        </div>  
+    </div>
+    <div id="second">
+        <p id="p15">О СТУДИИ</p>
+        <h1 id="h1_4">Дизайн, который решает <br> бизнес-задачи</h1>
+        <p id="p16">Мы соединяем интерьерный дизайн, аналитику рабочих <br> сценариев и визуальную айдентику компании. Каждый проект <br> начинается с изучения команды: как люди общаются, <br> отдыхают, проводят встречи и работают в тишине.</p>
+        <div id="elem2"><p id="p17">01</p> <p id="p18">Эргономика и комфорт</p></div>
+        <div id="elem3"><p id="p19">02</p> <p id="p20">Планировка под реальные процессы</p></div>
+        <div id="elem4"><p id="p21">03</p> <p id="p22">Визуальный стиль бренда в интерьере</p></div>
+    </div>
+    <div id="third">
+        <p id="p23">ЧТО ДЕЛАЕМ</p>
+        <h1 id="h1_5">Услуги студии</h1>
+        <div id="elem5"><h3 id="h3_5">Концепция офиса</h3> <p id="p25">Создаём визуальную идею, мудборд, палитру, <br> стиль мебели и ключевые интерьерные решения.</p></div>
+        <div id="elem6"><h3 id="h3_6">Планировка</h3> <p id="p27">Продумываем рабочие места, переговорные, <br> зоны отдыха, маршруты движения и хранение.</p></div>
+        <div id="elem7"><h3 id="h3_7">Концепция</h3> <p id="p29">Создаём визуальную идею, мудборд, палитру, <br> стиль мебели и ключевые интерьерные решения.</p></div>
+    </div>
+    <div id="fourth">
+        <p id="p30">КЕЙСЫ</p>
+        <h1 id="h1_6">Избранные проекты</h1>  
+        <img id="img1" src="project1.png" alt=""> <p id="p31">Cloud Office</p> <p id="p32">Минималистичный офис с тёплым светом и зонами тишины.</p>
+ </div>
+ <div id="fivth">
+    <p id="p33">ЭТАПЫ</p>
+    <h1 id="h1_7">Как проходит работа</h1>
+    <div id="elem8">
+        <div id="elem8_1">
+        <p class="elem_p1">01</p>
+        <p class="elem_p2">Брифинг</p>
+        <p class="elem_p3">Определяем задачи, бюджет, <br> сроки и стиль.</p>
+    </div>
+    </div>
+        <div id="elem9">
+        <div id="elem9_1">
+        <p class="elem_p1">02</p>
+        <p class="elem_p2">Концепция</p>
+        <p class="elem_p3">Собираем идею, <br> референсы и планировку.</p>
+    </div>
+    </div>
+        <div id="elem10">
+        <div id="elem10_1">
+        <p class="elem_p1">03</p>
+        <p class="elem_p2">Визуализация</p>
+        <p class="elem_p3">Готовим 3D-виды и <br> согласуем детали.</p>
+    </div>
+    </div>
+            <div id="elem11">
+        <div id="elem11_1">
+        <p class="elem_p1">04</p>
+        <p class="elem_p2">Передача</p>
+        <p class="elem_p3">Отдаём материалы для <br> реализации проекта.</p>
+    </div>
+    </div>
+ </div>
+ <div id="sixth">
+    <div id="elem12">
+        <p id="p34">готовы начать?</p>
+        <h1 id="h1_8">Расскажите о вашем <br> будущем <br> пространстве</h1>
+        <input id="inp1" type="text" placeholder="  Ваше имя">
+        <input id="inp2" type="text" placeholder="   Email">
+        <input id="inp3" type="text" placeholder="   Кратко о проекте">
+        <button id="btn4">Отправить заявку</button>
+    </div>
+    <p id="p35">© 2026 NovaSpace Studio</p>
+ </div>
+ <script src="script.js"></script>
 </body>
 </html>
